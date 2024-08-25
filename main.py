@@ -1,4 +1,11 @@
 from account import * 
 
 Pavan = BankAccount(1000,"pavan") 
-Rakesh = BankAccount(2000,"rakesh") 
+Rakesh = BankAccount(2000,"rakesh")  
+
+Pavan.get_balance()
+Rakesh.get_balance()
+
+Rakesh.deposit(500)  
+
+Pavan.withdraw(100)
